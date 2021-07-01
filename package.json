@@ -1,0 +1,25 @@
+{
+  "name": "weatherfastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "concurrently \"npm run dev\" \" npm run testing\"",
+    "testing": "tap test/endpointsTest.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "dotenv": "^8.6.0",
+    "fastify": "^3.18.1",
+    "fastify-env": "^2.1.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "tap": "^15.0.9"
+  }
+}
