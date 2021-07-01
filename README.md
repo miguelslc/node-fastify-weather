@@ -7,7 +7,7 @@ Routes
 
 Api de Terceros 
     freegeoip
-    openweathermap
+    openweathermap - Requiere apikey
 
 initial `npm install` 
 Para testing `npm run test`
